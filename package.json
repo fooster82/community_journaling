@@ -12,6 +12,9 @@
     "type": "git",
     "url": "git+https://github.com/NXFORG/community_journaling.git"
   },
+  "engines": {
+    "node": "12.19.0"
+  },
   "keywords": [
     "street",
     "hub",
