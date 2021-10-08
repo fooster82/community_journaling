@@ -280,7 +280,8 @@ const getArticles = () => {
                     likebutton.style.border = 'white';
                     likebutton.style.fontWeight = 'normal';
                     likeCount --;
-                    likeCounter.textContent = likeCount
+                    likeCounter.textContent = likeCount;
+                    addEmoji(fireCounter.getAttribute("data-value"));
                 }
             }));
             
@@ -298,7 +299,8 @@ const getArticles = () => {
                     heartbutton.style.border = 'white';
                     heartbutton.style.fontWeight = 'normal'
                     heartCount--;
-                    heartCounter.textContent = heartCount
+                    heartCounter.textContent = heartCount;
+                    addEmoji(fireCounter.getAttribute("data-value"));
                 }
             }));
             
@@ -317,7 +319,8 @@ const getArticles = () => {
                     firebutton.style.border = 'white';
                     firebutton.style.fontWeight = 'normal'
                     fireCount--;
-                    fireCounter.textContent = fireCount
+                    fireCounter.textContent = fireCount;
+                    addEmoji(fireCounter.getAttribute("data-value"));
                 }
             }));
     
