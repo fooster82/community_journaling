@@ -2,7 +2,7 @@ const express = require('express');
 const dotenv = require('dotenv').config();
 const axios = require('axios');
 const cors = require('cors');
-const port = (process.env.port || 5000);
+
 
 const app = express();
 app.use(express.json());
@@ -35,9 +35,7 @@ const articles = [
 ]
 
 app.use(cors());
-app.listen(port, () =>{
-    console.log(`app listening at https://localhost:${port}`)
-});
+
 
 app.get("/", (req, res) => res.send("Welcome to StreetHub"));
 
