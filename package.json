@@ -6,8 +6,7 @@
   "scripts": {
     "test": "jest --coverage --watchAll --env=jsdom",
     "coverage": "jest coverage",
-    "start": "node server.js",
-    "heroku-dev": "npm i -dev"
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
